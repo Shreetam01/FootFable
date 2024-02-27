@@ -1,0 +1,148 @@
+.logIn{
+    min-height: 75vh;
+    
+}
+.loginform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.regInLogIn{
+    display: flex;
+    margin: 20px;
+}
+.logIn {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.loginform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 80%;
+    background: #e6edff;
+    border: none;
+    border-radius: 20px;
+}
+.profile-dtls {
+    align-items: center;
+    text-align: center;
+    margin-top: 0;
+    width: 60%;
+    padding-bottom: 30px;
+}
+.profileheader {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #183C56;
+}
+.profile_dtls_clm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 25px;
+    padding-bottom: 0;
+    font-size: 18px;
+    width: 80%;
+    margin: 0;
+}
+.label {
+    width: 100%;
+    display: flex;
+    text-align: left;
+}
+input {
+    border: none;
+    border: 2px solid rgba(160, 161, 161, 0.544);
+    border-radius: 10px;
+    width: 100%;
+    outline: none;
+    padding: 8px;
+}
+.profile_dtls_clm {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-top: 25px;
+    padding-bottom: 0;
+    font-size: 18px;
+    width: 80%;
+    margin: 0;
+}
+.profile-btn {
+    width: 86%;
+    margin: 0;
+    margin-top: 25px;
+    padding: 8px;
+    /* padding-bottom: 0; */
+    /* background-color: rgba(76, 77, 78, 0.734); */
+    background: #a4b9ee;
+    border: 1px solid #a4b9ee;
+    border: none;
+    font-size: 16px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.profile-btn:hover{
+    background-color: transparent;
+    border: 1px solid #a4b9ee;
+    color: #183C56 ;
+
+}
+.regInLogIn {
+    margin: 20px;
+    width: 86%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    color: #183C56;
+    text-align: center;
+
+}
+.logInpic{
+    height: 100%;
+    width: 80%;
+    background: #a4b9ee;
+    border: none;
+    border-radius: 0 20px 20px 0;
+}
+.logInpic img{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+}
+.profile_card{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* #regForm{
+    flex-direction: row-reverse;
+} */
+.genlbl label{
+    font-weight: normal;
+}
+#regbtn{
+    margin-top: 47px;
+    margin-bottom: 0;
+}
+#regfrm{
+    flex-direction: column;
+}

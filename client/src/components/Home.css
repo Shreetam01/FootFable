@@ -1,0 +1,171 @@
+*{
+    margin: 0;padding: 0;
+
+}
+/* body{
+    overflow-x: hidden;
+} */
+.heroimg{
+    width: 100vw;
+}
+img{
+    width: 100%;
+}
+.categorysection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.categorycard{
+    width: 40%;
+    margin: 20px;
+}
+.gallery-section{
+    width: 100%;
+    display: flex;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(238, 240, 247);
+}
+.gallery-header h2{
+    letter-spacing: -1px;
+    font-size: 2.4705882352941rem;
+    font-family: 'Poppins',sans-serif;
+}
+.gallery-contant{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* width: 90%; */
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.gallery-row{
+    min-height: 30vh;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.fastclm{
+    display: flex;
+    flex-direction: column;
+    /* width: 35vw; */
+    gap: 15px;
+
+}
+.secclm{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.subclm img{
+    width: 30vw;
+    height: 250px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+
+}
+.secclm img{
+    width: 50vw;
+    height: 515px;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+.aboutContant svg{
+    color: #fff;
+}
+.servicesection{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px;
+}
+.services{
+    width: 20%;
+    height: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    border-left: 1px solid #82808083;
+}
+#fstservivecontaint{
+    border: none;
+}
+.servivecontaint{
+    text-align: left;
+}
+.home-card-container{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+.homecard{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.homecard img{
+    width: 90%;
+    margin: auto;
+}
+.companysection{
+    width: 100%;
+    background-color: #e6e8edaf;
+    padding: 50px 0;
+}
+.companyheader{
+    margin: auto;
+    /* margin-bottom: 30px; */
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.newproductsection{
+    background-color: #fff;
+    margin-top: 50px;
+}
+#home-cart-container{
+    justify-content: space-between;
+}
+#footerbanner{
+    flex-direction: row-reverse;
+}
+#footerrightsection img{
+    transform: rotate(15deg);
+}
+.companyheaderbutton{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 2px solid #e6e8edaf;
+    border-radius: 20px;
+    width: 200px;
+    text-decoration: none;
+}
+.companybutton{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;
+}

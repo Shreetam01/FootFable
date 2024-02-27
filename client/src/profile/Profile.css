@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.profile{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #FDF7E4; */
+}
+.profile-dtls{
+    width: 60%; 
+}
+.profile_card{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(76, 77, 78, 0.734);
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.profile_dtls_clm{
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 0;
+    font-size: 18px;
+    width: 80%;
+    margin: auto;
+}
+.label{
+    width: 40%;
+}
+.profile-btn{
+    width: 200px;
+    margin: auto;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* background-color: rgba(76, 77, 78, 0.734); */
+    border: 1px solid rgba(76, 77, 78, 0.734);
+    font-size: 16px;
+    font-weight:bolder;
+    text-decoration: none;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+.profile-btn:hover{
+    background-color: #00000089;
+    color: #fff;
+}
+.profile_sidebar{
+    margin-top: 30px;
+    width: 25%;
+    
+}
+.acc-holder{
+    min-height: 100px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+    background-color: #e6edff;
+}
+.acc-holder img{
+    width: 100px;
+}
+.acc-shortcrt-link-grp{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 40px 30px;
+    background-color: #e6edff;
+}
+.acc-shct-link{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 20px;
+    /* font-weight:700; */
+    font-size: 18px;
+
+}
+.acc-shct-link:hover{
+    color: blue;
+}
+#logout{
+    color: rgba(255, 0, 0, 0.529);
+    font-weight: bolder;
+    font-size: 18px;
+}
+#logout:hover{
+    color: red;
+}
+input{
+    border: none;
+    border-bottom: 2px solid rgba(160, 161, 161, 0.544);
+    width: 80%;
+    outline: none;
+    padding-left: 10px;
+}
+.label{
+    display: flex;
+    text-align: left;
+}
+.genlbl{
+    display: flex;
+    gap: 150px;
+}
+#watchlistCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 200px;
+    border: 2px solid #b8b4b4;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.profile-dtls{
+    align-items: center;
+    text-align: center;
+    /* margin-top: 30px; */
+}
+.profile-dtls-header{
+    padding-top: 50px;
+}
+.profileheader{
+    margin-top: 30px;
+}
+#mb50{
+    margin-bottom: 50px;
+}
+#profile_dtls_clm_df{
+    display: flex;
+    flex-direction: row;
+}
+#label_w_auto{
+    width: 50%;
+}
+@media screen and (max-width: 900px){
+
+}
+@media screen and (max-width: 440px){
+    .profile_dtls_clm{
+        flex-direction: column;
+    }
+    .label {
+        /* width: 40%; */
+        width: 100%;
+        /* text-align: left; */
+    }
+    .profile_card {
+        padding: 0;
+    }
+    .profile {
+        /* width: 95%; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .profile_sidebar {
+        margin-top: 10px;
+        /* width: 25%; */
+        width: 100%;
+    }
+    .acc-holder {
+        min-height: 100px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: left;
+        background-color: #ededed;
+    }
+    .acc-shortcrt-link-grp {
+        display: none;
+    }
+    .profile-dtls {
+        /* width: 60%; */
+        width: 100%;
+    }
+    .profile_card {
+        padding: 0;
+    }
+    
+    .profile_card {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .profile_dtls_clm {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .profile_dtls_clm {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 0;
+        font-size: 18px;
+    }
+    .profile_dtls_clm {
+        gap: 5px;
+    }
+    .genlbl {
+        display: flex;
+        gap: 10px;
+    }
+    .profile_dtls_clm input{
+        width: 100%; 
+    }
+    
+}
+.addresslist{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.address_card-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.address_card{
+    width: 30%;
+    border: 1px solid #b8b4b4;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 12px 0;
+}
+.address_card-title{
+    font-size: larger;
+    padding: 20px 0;
+    font-style: 20px;
+}
+.address_card-address{
+    padding: 10px 0;
+}
+.addressbox{
+    padding: 10px 0;
+}
+#watchlistcart{
+    text-decoration: none;
+    /* color: ori; */
+    color: black;
+}

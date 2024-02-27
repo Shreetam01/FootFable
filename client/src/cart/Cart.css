@@ -1,0 +1,141 @@
+table{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #ededed;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.headline{
+    background-color:  #ededed;
+    text-align: start;
+    height: 50px;
+    font-style: 25px;
+}
+table tr td{
+    height: 100px;
+
+}
+.Name{
+    width: 52%;
+    color: #797676;
+}
+.Quantity{
+    width: 15%;
+}
+.Price{
+    width: 20%;
+    color: #797676;
+}
+.Action{
+    width: 12%;
+}
+button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.cart-card{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    height: 200px;
+    border: 2px solid #b8b4b4;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.cart-product-image{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: black; */
+}
+.cart-product-image img{
+    width: 80%;
+    height: 80%;
+}
+.cart-product-details{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    text-align: left;
+}
+.cart-product-price{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.company, .quantity{
+    height: 30px;
+    gap: 10px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+}
+.title,.price{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    color: #797676;
+}
+.activity{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 10px;
+}
+.quantity button{
+    width: 50px;
+}
+.remove-item button{
+    color: rgba(196, 5, 5, 0.678);
+}
+.view-item button{
+    color: #797676;
+}
+.watchlist-item button{
+    color:rgba(3, 69, 47, 0.882);
+}
+.status{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding-top: 20px;
+    /* flex-direction: column; */
+    gap: 50px;
+}
+.sts-dtls p{
+    margin-left: 30px;
+}
+.order-nav-container{
+    display: flex;
+    flex-direction: column;
+}
+.orderhomepage{
+    width: 100%;
+}
+#order-product-details{
+    width: 30%;
+}
+#order-product-price{
+    width: 30%;
+}
+#green{
+    color: rgb(7, 185, 7);
+}
+.minh50{
+    min-height: 45vh;
+}
+#red{
+    color: red;
+}
